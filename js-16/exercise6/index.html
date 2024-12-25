@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: blanchedalmond;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        padding: 7% 5%;
+        /* gap: 5%; */
+      }
+      .input {
+        width: 100%;
+        /* margin-left: ; */
+      }
+      .bt {
+        width: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 2%;
+        margin-left: 3%;
+      }
+      input {
+        width: 100%;
+        height: 100%;
+      }
+
+      button {
+        width: 80px;
+        height: 80px;
+        font-size: xx-large;
+        border-radius: 50px;
+        margin: 2% 0;
+      }
+      img {
+        width: 30%;
+        margin-bottom: 10%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="input"><input id="in" type="text" /></div>
+    <div class="bt">
+      <button id="num1">👈</button>
+      <button id="num2">🎨</button>
+      <button id="num3" style="font-weight: bold">B</button>
+      <button id="num4" style="font-style: italic">I</button>
+    </div>
+    <img src="./img/pic.png" alt="" />
+    <script src="./7-editor.js"></script>
+  </body>
+</html>
